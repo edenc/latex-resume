@@ -1,0 +1,321 @@
+\documentclass[a4paper,oneside]{memoir}
+
+\usepackage[T1]{fontenc}
+\usepackage{accanthis}
+
+%% \usepackage[T1]{fontenc}
+%% \usepackage{Alegreya} %% Option 'black' gives heavier bold face 
+%% \renewcommand*\oldstylenums[1]{{\AlegreyaOsF #1}}
+
+%% \usepackage{concmath}
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage{caladea}
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage[default]{cantarell} %% Use option "defaultsans" to use cantarell as sans serif only
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage[bitstream-charter]{mathdesign}
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage[defaultsans]{droidsans}
+%% \renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be typewriter style
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage{epigrafica}
+%% \usepackage[LGR,OT1]{fontenc}
+
+%% \usepackage{fetamont}
+%% \usepackage[T1]{fontenc}
+
+%% \usepackage[T1]{fontenc}
+%% \usepackage[default]{gillius}
+
+\usepackage[margin={3cm,3cm}]{geometry}  % influences column width
+\usepackage{multicol}
+\usepackage{lipsum}
+\usepackage{titling}
+\usepackage[usenames,dvipsnames]{xcolor}					% color
+\usepackage{url}
+\usepackage{tikz}
+
+\pagenumbering{gobble} % no page numbers
+\setlength{\parindent}{0pt}			% no paragraph indentation
+
+\usepackage{fourier-orns}
+
+\newcommand{\ornamento}{\vspace{2em}\noindent \textcolor{darkgray}{\hrulefill~ \raisebox{-2.5pt}[10pt][10pt]{\leafright \decofourleft \decothreeleft  \aldineright \decotwo \floweroneleft \decoone   \floweroneright \decotwo \aldineleft\decothreeright \decofourright \leafleft} ~  \hrulefill \\ \vspace{2em}}}
+
+\setlength{\droptitle}{-0.7cm}
+\pretitle{\Huge}
+\posttitle{\normalsize\normalfont\hspace{\stretch{1}}}
+\preauthor{\Large\center}
+\postauthor{\hspace{\stretch{3}}}
+\predate{}
+\postdate{}
+% \usepackage[xcolor]{rvdtx}
+
+\columnsep=40pt
+\title{Eden Cardim}
+\author{IT Consultant}
+
+\begin{document}
+\maketitle
+%\contact{edencardim@gmail.com}
+%\version{1.0}
+%\date{2016/03/02}
+%\keywords{\LaTeX, grid typesetting}
+
+\tikz{%
+	\draw[dotted,thick,color=RoyalBlue,yshift=0]
+	(0,0) -- (\textwidth,0);}%
+
+\begin{multicols}{2}
+\begin{flushright}
+\Large\textbf{\color{RoyalBlue}\uppercase{Profile}}\normalsize\scriptsize\\
+
+I have been developing software and administering systems since 1998 and have
+collaborated with several open source projects. I also specialize in planning
+and developing both relational and big data database architectures with cloud
+computing.\\
+
+I'm concerned with social awareness, equality and sustainability, most of my
+volunteer efforts are geared towards social improvement and climate change.\\
+
+\normalsize
+
+\vspace{1em}
+
+\Large\textbf{\color{RoyalBlue}\uppercase{Contact}}\normalsize\\
+
+
+edencardim@gmail.com\\
+https://github.com/edenc\\
+
++55 11 9 9644 8225\\
+\vspace{1em}
+\scriptsize
+Rua Almirante Brasil, 243\\
+Ap. 132C\\
+Mooca, SP\\
+Brasil\\
+\normalsize
+
+\vspace{1em}
+
+\Large\textbf{\color{RoyalBlue}\uppercase{Skills}}\normalsize\\
+\footnotesize\textbf{
+    \begin{tabular*}{132pt}{rrr}
+      Perl & Javascript & SQL\\
+      C & C++ & R\\
+      Java & Haskell & Prolog\\
+      Python & Ruby & LISP\\
+      \LaTeX & PostgreSQL & MySQL\\
+      Apache & Hadoop & Git\\
+      Linux & FreeBSD & Windows\\
+    \end{tabular*}
+}
+
+\normalsize
+
+\vspace{1em}
+\Large\textbf{\color{RoyalBlue}\uppercase{Languages}}\normalsize\\
+
+native
+\textbf{Portuguese}\\
+
+fluent
+\textbf{English}\\
+
+mostly reading
+\textbf{Spanish}\\
+
+\vspace{1em}
+\Large\textbf{\color{RoyalBlue}\uppercase{Education}}\normalsize\\
+\textbf{Universidade Estadual de Santa Cruz}\normalsize\\
+Computer Science BSc.\\
+
+\vspace{1em}
+
+\Large\textbf{\color{RoyalBlue}\uppercase{Publications}}\normalsize\\
+\textbf{The Definitive Guide to Catalyst - 2009}\\
+\scriptsize
+Apress\\
+Kieren D., Matt T., Eden C., Jay K., Jess R.\\
+ISBN-13 978-1430223658\\
+ISBN-10 1430223650\\
+\normalsize
+\vspace{1em}
+\Large\textbf{\color{RoyalBlue}\uppercase{Awards \& Honors}}\normalsize\\
+\textbf{Desarollando America Latina - 2011}\\
+
+\scriptsize
+
+Won the first edition of the \emph{Desarollando America Latina} hackathon by
+implementing the \emph{Onde Acontece} application, facing competition of 18
+teams from countries across Latin America.\\
+
+\normalsize
+\vspace{1em}
+\Large\textbf{\color{RoyalBlue}\uppercase{Extra-Curricular Activities}}\normalsize\\
+\textbf{Google Summer of Code - 2011}\\
+\scriptsize
+
+Voluntary mentor involving the improvement of Catalyst's dependency injection
+mechanism.\\
+
+\normalsize
+
+\textbf{São Paulo Perl Workshop - 2011}
+\scriptsize
+Speaker
+\normalsize\\
+
+\textbf{FISL - 2008, 2009}
+\scriptsize
+Speaker
+\normalsize\\
+
+\textbf{CONISLI - 2008}
+\scriptsize
+Speaker
+\normalsize\\
+
+\end{flushright}
+
+\columnbreak
+
+\begin{flushleft}
+
+\Large\textbf{\color{RoyalBlue}\uppercase{Experience}}\normalsize
+
+\textbf{\color{RoyalBlue}Tata Consulting Services} \footnotesize São Paulo, Brazil\normalsize
+
+\textbf{BI Analyst}
+\footnotesize\textbf{Mar 2016 -- Present}\normalsize
+
+\textbf{\color{RoyalBlue}IBM} \footnotesize São Paulo, Brazil\normalsize
+
+\textbf{Database Analyst}
+\footnotesize\textbf{Jul 2014 -- Mar 2016}\normalsize
+
+\scriptsize
+Design database architectures for both big data and relational database systems.
+Demonstrate capacity to potential clients during the pre-sales phase then
+deliver and deploy solutions at the client site.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}urby.com.br} \footnotesize São Paulo, Brazil\normalsize
+
+\textbf{Technical Director}
+\footnotesize\textbf{Jun 2013 -- Jul 2014}\normalsize
+
+\scriptsize
+
+Design IT architecture and infrastructure solutions applied to geocomputation.
+Support development teams on design decisions. Hands-on development with
+Javascript, Perl, PostgreSQL and PostGIS.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}Insolide IT} \footnotesize São Paulo, Brazil\normalsize
+
+\textbf{CTO}
+\footnotesize\textbf{Jun 2013 -- Jul 2014}\normalsize
+
+\scriptsize
+Negotiate contracts with customers, project management and hands-on development
+with Perl, Ruby, PostgreSQL, Apache and Amazon Web Services.
+
+\footnotesize\textbf{\color{RoyalBlue}Clients/Projects}\\
+\textbf{Instituto Ruth Cardoso}\\
+\textbf{Estante Virtual}\\
+
+\normalsize
+
+\textbf{\color{RoyalBlue}Shadowcat Systems Ltd.} \footnotesize Lancaster, UK\normalsize
+
+\textbf{Lead Developer}
+\footnotesize\textbf{Jan 2008 -- Aug 2013}\normalsize
+
+\scriptsize
+
+Database/Software design and implementation, project management and
+Catalyst/DBIx::Class scalability solutions for high-traffic websites. Built
+tailor-made Business Intelligence tools for customers.
+
+\footnotesize\textbf{\color{RoyalBlue}Clients/Projects}\\
+\textbf{University of Indiana}\\
+\textbf{Cisco Systems Inc.}\\
+\textbf{US Census}\\
+\textbf{British Broadcasting Company}\\
+\textbf{Takkle Inc.}\\
+\textbf{Socialflow Inc.}\\
+
+\normalsize
+
+\textbf{\color{RoyalBlue}IonZero LLC} \footnotesize Fort Collins, USA\normalsize
+
+\textbf{Software Developer}
+\footnotesize\textbf{Aug 2010 -- Dec 2010}\normalsize
+
+\scriptsize
+
+OLAP solutions and operations for various customers.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}DBIX Corp.} \footnotesize San Francisco, USA\normalsize
+
+\textbf{Software Developer}
+\footnotesize\textbf{Feb 2008 -- May 2008}\normalsize
+
+\scriptsize
+
+Parsing/lexing solutions for domain-specific programming languages. Implemented
+a Wiki from the ground up to demonstrate DSL capacities.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}PictureTrail Inc.} \footnotesize Silicon Valley, USA\normalsize
+
+\textbf{Software Developer}
+\footnotesize\textbf{Jun 2007 -- Dec 2007}\normalsize
+
+\scriptsize
+
+Scalability solutions and software design for Catalyst-based web applications.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}Núcleo de Biologia Computacional e Gestão de Informações Biotecnológicas da Bahia} \footnotesize Ilhéus, Brazil\normalsize
+
+\textbf{Researcher}
+\footnotesize\textbf{Feb 2005 -- Aug 2007}\normalsize
+
+\scriptsize
+
+Bioinformatics applied to research on the \emph{Moniliophthora roreri} genome.
+Designed and implemented genomics analysis tools, annotation and processing
+workflows.
+
+\normalsize
+
+\textbf{\color{RoyalBlue}Vapt Net} \footnotesize Ipiaú, Brazil\normalsize
+
+\textbf{Systems Administrator}
+\footnotesize\textbf{Jan 1998 -- Jan 1999}\normalsize
+
+\scriptsize
+
+Linux administration and support. Development of the corporate ticket portal.
+
+\end{flushleft}
+
+\end{multicols}
+
+\end{document}
+
+% End of document.
